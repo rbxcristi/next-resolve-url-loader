@@ -1,6 +1,6 @@
 {
   "name": "@rbxcristi/next-resolve-url-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "license": "MIT",
   "repository": "rbxcristi/next-resolve-url-loader",
