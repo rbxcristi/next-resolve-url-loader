@@ -7,19 +7,25 @@ module.exports = (nextConfig = {}) => {
         );
       }
 
+      const options = {
+        engine: 'postcss'
+      };
+
       config.module.rules.push(
         {
           test: /\.scss$/,
           use: [
             {
-              loader: 'resolve-url-loader'
+              loader: 'resolve-url-loader',
+              options: options
             }
           ]
         },
         {
           test: /\.sass$/,
           use: {
-            loader: 'resolve-url-loader'
+            loader: 'resolve-url-loader',
+            options: options
           }
         }
       );
