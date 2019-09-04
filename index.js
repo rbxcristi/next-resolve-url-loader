@@ -8,7 +8,7 @@ module.exports = (nextConfig = {}) => {
       }
 
       const resolveUrlLoaderOptions = {
-        engine: 'postcss',
+        engine: 'rework',
         debug: true
       };
 
