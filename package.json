@@ -1,0 +1,10 @@
+{
+  "name": "@rbxcristi/next-resolve-url-loader",
+  "version": "0.1.0-alpha",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "rbxcristi/next-resolve-url-loader",
+  "dependencies": {
+    "resolve-url-loader": "3.1.0"
+  }
+}
