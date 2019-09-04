@@ -7,7 +7,7 @@ module.exports = (nextConfig = {}) => {
         );
       }
 
-      const options = {
+      const resolveUrlLoaderOptions = {
         engine: 'postcss'
       };
 
@@ -17,7 +17,7 @@ module.exports = (nextConfig = {}) => {
           use: [
             {
               loader: 'resolve-url-loader',
-              options: options
+              options: resolveUrlLoaderOptions
             }
           ]
         },
@@ -25,7 +25,7 @@ module.exports = (nextConfig = {}) => {
           test: /\.sass$/,
           use: {
             loader: 'resolve-url-loader',
-            options: options
+            options: resolveUrlLoaderOptions
           }
         }
       );
