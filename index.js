@@ -8,7 +8,8 @@ module.exports = (nextConfig = {}) => {
       }
 
       const resolveUrlLoaderOptions = {
-        engine: 'postcss'
+        engine: 'postcss',
+        debug: true
       };
 
       config.module.rules.push(
